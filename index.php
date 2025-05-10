@@ -206,6 +206,11 @@
             color: #1a1d20;
         }
 
+        [data-theme="light"] .badge.bg-info {
+            background-color: #0dcaf0 !important;
+            color: #fff !important;
+        }
+
         #theme-switcher {
             position: fixed;
             bottom: 20px;
@@ -249,21 +254,32 @@
                 Passionate about creating web and mobile solutions with modern technologies.
                 Experienced in building responsive web applications and Android development.
             </p>
-            <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap">
-                <span class="badge bg-light text-dark">HTML5</span>
-                <span class="badge bg-light text-dark">CSS3</span>
-                <span class="badge bg-light text-dark">JavaScript</span>
-                <span class="badge bg-light text-dark">PHP</span>
-                <span class="badge bg-light text-dark">Python</span>
-                <span class="badge bg-light text-dark">MySQL</span>
-                <span class="badge bg-light text-dark">Android</span>
-                <span class="badge bg-light text-dark">Kotlin</span>
-                <!-- เพิ่มภาษาใหม่ -->
-                <span class="badge bg-light text-dark">React</span>
-                <span class="badge bg-light text-dark">Vue.js</span>
-                <span class="badge bg-light text-dark">Node.js</span>
-                <span class="badge bg-light text-dark">Express</span>
-                <span class="badge bg-light text-dark">Git</span>
+            <!-- ทักษะที่มีประสบการณ์ -->
+            <div class="mb-3">
+                <p class="text-light-50 mb-2">My Skills</p>
+                <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap">
+                    <span class="badge bg-light text-dark">HTML5</span>
+                    <span class="badge bg-light text-dark">CSS3</span>
+                    <span class="badge bg-light text-dark">JavaScript</span>
+                    <span class="badge bg-light text-dark">PHP</span>
+                    <span class="badge bg-light text-dark">Python</span>
+                    <span class="badge bg-light text-dark">MySQL</span>
+                    <span class="badge bg-light text-dark">Android</span>
+                    <span class="badge bg-light text-dark">Kotlin</span>
+                    <span class="badge bg-light text-dark">Node.js</span>
+                    <span class="badge bg-light text-dark">Express</span>
+                    <span class="badge bg-light text-dark">Git</span>
+                </div>
+            </div>
+
+            <!-- ทักษะที่กำลังเรียนรู้ -->
+            <div class="mb-4">
+                <p class="text-light-50 mb-2">Currently Learning</p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <span class="badge bg-info text-white">React</span>
+                    <span class="badge bg-info text-white">Vue.js</span>
+                    <span class="badge bg-info text-white">Docker</span>
+                </div>
             </div>
             <p class="lead mb-4">
                 <a href="projects.php" class="btn btn-light px-4 me-3">View Projects</a>
