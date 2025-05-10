@@ -222,7 +222,7 @@
                             <span class="tech-badge">QR Code</span>
                         </div>
                         <div class="mt-4">
-                            <a href="#" class="btn btn-view" data-bs-toggle="modal" data-bs-target="#foodMenuModal">View Project</a>
+                            <a href="https://zeptra.online/build" class="btn btn-view" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
