@@ -258,6 +258,12 @@
                 <span class="badge bg-light text-dark">MySQL</span>
                 <span class="badge bg-light text-dark">Android</span>
                 <span class="badge bg-light text-dark">Kotlin</span>
+                <!-- เพิ่มภาษาใหม่ -->
+                <span class="badge bg-light text-dark">React</span>
+                <span class="badge bg-light text-dark">Vue.js</span>
+                <span class="badge bg-light text-dark">Node.js</span>
+                <span class="badge bg-light text-dark">Express</span>
+                <span class="badge bg-light text-dark">Git</span>
             </div>
             <p class="lead mb-4">
                 <a href="projects.php" class="btn btn-light px-4 me-3">View Projects</a>
