@@ -206,7 +206,16 @@
         <div class="row g-4 fade-in">
             <!-- Project Card for Food Menu App (React) -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100">
+                <div class="card h-100 position-relative">
+                    <!-- Badge แสดงสถานะกำลังศึกษา -->
+                    <div class="position-absolute" style="top: 15px; right: 15px;">
+                        <span class="badge bg-info d-flex align-items-center px-2 py-1" 
+                            style="font-size: 0.75rem; border-radius: 6px; background: rgba(13, 202, 240, 0.25) !important; 
+                                    color: #0dcaf0; border: 1px solid rgba(13, 202, 240, 0.5);">
+                            <i class="bi bi-book me-1"></i> Learning Project
+                        </span>
+                    </div>
+                    
                     <div class="card-body">
                         <div class="project-icon">
                             <i class="bi bi-phone"></i>
